@@ -1,0 +1,29 @@
+.contact-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .contact-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .contact-phone {
+    color: #666;
+    font-size: 14px;
+  }  
